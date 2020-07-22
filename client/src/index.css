@@ -1,0 +1,222 @@
+/* fonts */
+@font-face {
+  font-family: 'Proxima Nova-Black';
+  src: url('./font/ProximaNova-Black.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova-Bold';
+  src: url('./font/ProximaNova-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova-Semibold';
+  src: url('./font/ProximaNova-Semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova-Regular';
+  src: url('./font/ProximaNova-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova-Light';
+  src: url('./font/ProximaNova-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova-Thin';
+  src: url('./font/ProximaNovaT-Thin.woff') format('woff');
+}
+
+/* styles */
+.percent {
+  font-family: Proxima Nova-Semibold;
+  text-align: left !important;
+  padding-left: 50px !important;
+}
+body {
+  background-color: #171a23;
+}
+.container {
+  padding-top: 20px !important;
+}
+thead,
+.accordion-header {
+  font-family: Proxima Nova-Bold;
+  font-size: 16px;
+}
+tbody {
+  font-family: Proxima Nova-Regular;
+  font-size: 15px;
+}
+th,
+td {
+  text-align: center !important;
+  width: 140px;
+}
+tr > th:nth-child(1),
+tr > td:nth-child(1) {
+  text-align: left !important;
+  width: 310px;
+}
+a {
+  color: #000000;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3c3b3b !important;
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #282828;
+}
+.direction:hover {
+  background-color: rgba(0, 0, 0, 0.06) !important;
+  cursor: pointer !important;
+  user-select: none;
+}
+input {
+  font-size: 15px;
+  font-family: Proxima Nova-Regular !important;
+}
+.search {
+  width: 100% !important;
+}
+
+.minPrice {
+  width: 90px;
+}
+.maxPrice,
+.maxPercent {
+  margin-left: 66px;
+  width: 90px;
+}
+
+.minPercent {
+  margin-left: 90px;
+  width: 90px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.ui[class*='right labeled'].input > input {
+  border-top-right-radius: 0px !important;
+}
+.settings {
+  font-size: 15px;
+  font-family: Proxima Nova-Regular !important;
+  position: relative;
+}
+.statistic {
+  position: absolute;
+  right: 0;
+  margin: 0 !important;
+}
+.statistic > .value {
+  font-family: Proxima Nova-Light !important;
+}
+.ui.mini.statistic > .value,
+.ui.mini.statistics .statistic > .value {
+  font-size: 15px !important;
+}
+.ui.label,
+.ui.input > input,
+.searchButton,
+.ui.table {
+  border-radius: 0 !important;
+}
+.shownItemsLength {
+  right: 0px;
+  top: 40px;
+  width: 590px;
+}
+.close.icon {
+  position: absolute;
+  right: 8px;
+  top: 11px;
+  cursor: pointer;
+  color: #22242633;
+}
+.parser-table td {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+/* history */
+.history-container {
+  padding-top: 75px !important;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+.history-table {
+  width: 900px !important;
+  margin: 0 !important;
+}
+.history-table td {
+  padding: 2px 15px !important;
+  font-size: 13px;
+  font-family: Proxima Nova-Semibold !important;
+}
+.history-table th {
+  padding: 8px 15px !important;
+}
+.history-length {
+  position: absolute;
+  top: 65px;
+  right: 60px;
+}
+.most-popular {
+  width: 750px !important;
+}
+.ui.styled.accordion,
+.ui.styled.accordion .accordion {
+  border-radius: 0px;
+}
+.ui.styled.accordion .accordion .title,
+.ui.styled.accordion .title {
+  padding: 2px 20px !important;
+  font-size: 13px;
+  font-family: Proxima Nova-Semibold !important;
+  color: #000000de;
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-title:hover {
+  text-decoration: underline;
+}
+.accordion-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.accordion {
+  margin-top: 8px;
+}
+.accordion-collumn {
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+@media only screen and (min-width: 1200px) {
+  .ui.container {
+    width: 1250px !important;
+  }
+}
+.update-icon {
+    margin-left: 35px !important;
+    cursor: pointer;
+}
+.update-icon:hover {
+    color: #d99962;
+}
+.bts-input input {
+    padding: 0px 10px 0px 10px !important;
+}
+
+a:focus {
+    color: #4183c4 !important;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "parser_build",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.15.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "notp": "^2.0.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "thirty-two": "^1.0.2"
+  }
+}
